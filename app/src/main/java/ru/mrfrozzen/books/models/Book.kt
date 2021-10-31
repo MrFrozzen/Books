@@ -20,5 +20,5 @@ data class Book(
     @SerializedName("author")
     val author:String?
 ) : Parcelable {
-    constructor() : this("id","title", "description","author")
+    constructor() : this("","", "","")
 }
